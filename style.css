@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.hero{
+    display: flex;
+    padding: 20px;
+}
+.half-width{
+    width: 50%;
+
+}
+
+img{
+    width: 100%;
+}
