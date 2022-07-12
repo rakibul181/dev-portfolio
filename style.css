@@ -3,7 +3,7 @@ body{
     font-family: 'Fira Sans', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 44px;
 }
 h2{
     font-size: 30px;
@@ -21,6 +21,9 @@ p{
     width: 50%;
     padding:2% 7%;
 
+}
+.hero h1{
+    font-size: 50px;
 }
 .orange{
     color: orangered;
@@ -49,4 +52,38 @@ button a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+.exp-cards{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 96%;
+    padding: 2%;
+    display: flex;
+}
+.card{
+    height: 370px;
+    width: 40%;
+    margin: 2.5%;
+    padding: 2.5%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.exp-cards h3{
+    color: orangered;
+
+
+}
+#left{
+    border-left: 5px solid tomato;
+}
+#right{
+    border-left: 5px solid orange;
+}
+
+footer{
+    text-align: center;
+    padding-top: 50px;
 }
